@@ -1,0 +1,105 @@
+/*css for the texts*/
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    padding-left:20px;
+    background-color:#8860D0;
+}
+
+h3, p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+body{
+    font-family:"Times New Roman", Times, serif;
+    background-color: white;
+}
+
+table{
+    margin: 5px 20px 20px 20px;
+    border: solid black;
+}
+
+th{
+    background-image: url(../images/th-color.jpg);
+    color:white;
+    text-align: center
+    border: solid black;
+    background-color: #292baa;
+}
+
+td{
+    background-image: url(../images/td-color.jpg);
+    color: white;
+    background-size:100%;
+    text-align: left;
+    background-color: #292baa;
+    border: solid #5680E9;
+}
+
+
+/*CSS for the buttons so the texts hides when its clicked*/
+#IButton, #SWSButton{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+/*Css for jump links*/
+.qhop li{
+    color:#9a9bd4;
+}
+
+.qhop a{
+font-size:20px;
+text-decoration:none;
+color:#9a9bd4;
+}
+
+.qhop a:hover{
+font-size:20px;
+text-decoration:none;
+color:white;
+transition:0.8s ease;
+}
+  
+/*css for buttons*/
+.button{
+    background-image:url("../images/button-color2.jpg");
+    background-size:100%;
+    float:none;
+    font-size: 16px;
+    text-align: center; 
+    text-decoration: none;   
+    color: rgb(23, 69, 168);    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:300px;
+    padding: 14px 16px;
+    border-radius:8px;
+    border:none;
+    cursor: pointer;
+    margin:5px 5px;
+}
+
+.button:hover{
+    color:black;
+    transition:0.8s;
+}
+
+.show{
+    display:block;
+}
+
+/* css for pictures*/
+.hopelessness, .stress, .grief{
+    display: block;
+    text-align:center;
+    padding-bottom:10px;
+}

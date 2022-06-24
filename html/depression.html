@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Depression | Wellness.com</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/depression.css">
+<link rel="shortcut icon" href="../images/wellness-tab.ico" type="image/ico">
+</head>
+
+<style>
+    @import url("../css/dropdown.css");
+    @import url("../css/footer.css");
+    body{
+        background-image:url("../images/background-vice.jpg");
+        background-position-y:0%;
+        background-attachment:scroll;
+        background-repeat:none;
+        color:black;
+    }
+</style>
+
+<body>
+  <script type="text/javascript" src="../javascript/buttonfunction.js"></script>
+  <script type="text/javascript" src="../javascript/dropdownFunc.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow54.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+
+  <div class="logo"><a href="home.html"><img src="../images/wellness.png" width=50px;></a></div>
+  <nav class="navbar">
+      <ul class="navlist">            
+          <a href="home.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="about.html">About</a>
+          <a href="FAQs.html">FAQs</a>
+          <div class="dropdownPos">
+              <button onclick="dropdownFunc()" class="dropbtn">Information
+                  <i class="fa fa-caret-down"></i>
+              </button>        
+              <div id="infoDrop" class="dropdownList"> 
+                  <a href="anxiety.html">Anxiety</a>
+                  <a href="depression.html">Depression</a>
+                  <a href="ocd.html">OCD</a>
+                  <a href="suicidalthoughts.html">Suicidal Thoughts</a>
+              </div>
+          </div>
+      </ul>
+  </nav>
+
+    <div>
+        <h1> Navigation </h1>
+        <ul class="qhop">
+            <li><a href = "#Overview">What is Depression</a></li>
+            <li><a href = "#Symptoms"> Symptoms</a></li>
+            <li><a href = "#In Children and Teens">Symptoms In Children and Teens</a></li>
+            <li><a href = "#In Older Adults">Symptoms In Older Adults </a></li>
+            <li><a href = "#Causes"> Causes</a></li>
+            <li><a href = "#Risk Factors">Risk Factors</a> </li>
+            <li><a href = "#Complications"> Complications</a></li>
+            <li><a href = "#Prevention">Prevention</a></li>
+        </ul>
+    </div>
+
+  <div>
+      <a id ="Overview"><h1>Depression</h1>
+        <h2>Overview</h2>
+        <p>Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living.</p>
+        <p>More than just a bout of the blues, depression isn't a weakness and you can't simply "snap out" of it. Depression may require long-term treatment. But don't get discouraged. Most people with depression feel better with medication, psychotherapy or both.</p> 
+  </div>       
+
+  <div>
+    <a id = "Symptoms"></a><h2>Symptoms</h2>
+      <p>Although depression may occur only once during your life, people typically have multiple episodes. During these episodes, symptoms occur most of the day, nearly every day and may include:</p>
+      <ul>
+        <li>Feelings of sadness, tearfulness, emptiness or hopelessness</li>
+        <li>Angry outbursts, irritability or frustration, even over small matters</li>
+        <li>Loss of interest or pleasure in most or all normal activities, such as sex, hobbies or sports</li>
+        <li>Sleep disturbances, including insomnia or sleeping too much</li>
+        <li>Tiredness and lack of energy, so even small tasks take extra effort</li>
+        <li>Reduced appetite and weight loss or increased cravings for food and weight gain</li>
+        <li>Anxiety, agitation or restlessness</li>
+        <li>Slowed thinking, speaking or body movements</li>
+        <li>Feelings of worthlessness or guilt, fixating on past failures or self-blame</li>
+        <li>Trouble thinking, concentrating, making decisions and remembering things</li>
+        <li>Frequent or recurrent thoughts of death, suicidal thoughts, suicide attempts or suicide</li>
+        <li>Unexplained physical problems, such as back pain or headaches</li>
+      </ul>
+    <p>For many people with depression, symptoms usually are severe enough to cause noticeable problems in day-to-day activities, such as work, school, social activities or relationships with others. Some people may feel generally miserable or unhappy without really knowing why.</p>
+  </div>
+
+  <div>
+    <a id = "In Children and Teens"></a><h2>Depression symptoms in children and teens</h2>
+    <p>Common signs and symptoms of depression in children and teenagers are similar to those of adults, but there can be some differences.</p>
+    <ul>
+        <li>In younger children, symptoms of depression may include sadness, irritability, clinginess, worry, aches and pains, refusing to go to school, or being underweight.
+          <ul>
+          <li><strong>Biological differences.</strong>&nbsp;People with depression appear to have physical changes in their brains. The significance of these changes is still uncertain, but may eventually help pinpoint causes.</li>
+          <li><strong>Brain chemistry.</strong>&nbsp;Neurotransmitters are naturally occurring brain chemicals that likely play a role in depression. Recent research indicates that changes in the function and effect of these neurotransmitters and how they interact with neurocircuits involved in maintaining mood stability may play a significant role in depression and its treatment.</li>
+          <li><strong>Hormones.</strong>&nbsp;Changes in the body's balance of hormones may be involved in causing or triggering depression. Hormone changes can result with pregnancy and during the weeks or months after delivery (postpartum) and from thyroid problems, menopause or a number of other conditions.</li>
+          <li><strong>Inherited traits.</strong>&nbsp;Depression is more common in people whose blood relatives also have this condition. Researchers are trying to find genes that may be involved in causing depression.In teens, symptoms may include sadness, irritability, feeling negative and worthless, anger, poor performance or poor attendance at school, feeling misunderstood and extremely sensitive, using recreational drugs or alcohol, eating or sleeping too much, self-harm, loss of interest in normal activities, and avoidance of social interaction.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <a id = "In Older Adults"></a><h2>Depression symptoms in older adults</h2>
+      <p>Depression is not a normal part of growing older, and it should never be taken lightly. Unfortunately, depression often goes undiagnosed and untreated in older adults, and they may feel reluctant to seek help. Symptoms of depression may be different or less obvious in older adults, such as:</p>
+        <ul>
+          <li>Memory difficulties or personality changes</li>
+          <li>Physical aches or pain</li>
+          <li>Fatigue, loss of appetite, sleep problems or loss of interest in sex &mdash; not caused by a medical condition or medication</li>
+          <li>Often wanting to stay at home, rather than going out to socialize or doing new things</li>
+          <li>Suicidal thinking or feelings, especially in older men</li>
+        </ul>                
+  </div>
+
+  <div>
+    <a id = "Causes"></a><h2>Causes</h2>
+    <p>It's not known exactly what causes depression. As with many mental disorders, a variety of factors may be involved, such as:</p>
+        <ul>
+          <li><strong>Biological differences.</strong>&nbsp;People with depression appear to have physical changes in their brains. The significance of these changes is still uncertain, but may eventually help pinpoint causes.</li>
+          <li><strong>Brain chemistry.</strong>&nbsp;Neurotransmitters are naturally occurring brain chemicals that likely play a role in depression. Recent research indicates that changes in the function and effect of these neurotransmitters and how they interact with neurocircuits involved in maintaining mood stability may play a significant role in depression and its treatment.</li>
+          <li><strong>Hormones.</strong>&nbsp;Changes in the body's balance of hormones may be involved in causing or triggering depression. Hormone changes can result with pregnancy and during the weeks or months after delivery (postpartum) and from thyroid problems, menopause or a number of other conditions.</li>
+          <li><strong>Inherited traits.</strong>&nbsp;Depression is more common in people whose blood relatives also have this condition. Researchers are trying to find genes that may be involved in causing depression.</li>
+        </ul>
+  </div>
+
+  <div>
+    <a id = "Risk Factors"></a><h2>Risk factors</h2>
+    <p>Depression often begins in the teens, 20s or 30s, but it can happen at any age. More women than men are diagnosed with depression, but this may be due in part because women are more likely to seek treatment.</p>
+    <p>Factors that seem to increase the risk of developing or triggering depression include:</p>
+      <ul>
+        <li>Certain personality traits, such as low self-esteem and being too dependent, self-critical or pessimistic</li>
+        <li>Traumatic or stressful events, such as physical or sexual abuse, the death or loss of a loved one, a difficult relationship, or financial problems</li>
+        <li>Blood relatives with a history of depression, bipolar disorder, alcoholism or suicide</li>
+        <li>Being lesbian, gay, bisexual or transgender, or having variations in the development of genital organs that aren't clearly male or female (intersex) in an unsupportive situation</li>
+        <li>History of other mental health disorders, such as anxiety disorder, eating disorders or post-traumatic stress disorder</li>
+        <li>Abuse of alcohol or recreational drugs</li>
+        <li>Serious or chronic illness, including cancer, stroke, chronic pain or heart disease</li>
+        <li>Certain medications, such as some high blood pressure medications or sleeping pills (talk to your doctor before stopping any medication)</li>
+      </ul>
+  </div>
+
+  <div>
+    <a id = "Complications"></a><h2>Complications</h2>
+    <p>Depression is a serious disorder that can take a terrible toll on you and your family. Depression often gets worse if it isn't treated, resulting in emotional, behavioral and health problems that affect every area of your life.</p>
+    <p>Examples of complications associated with depression include:</p>
+      <ul>
+        <li>Excess weight or obesity, which can lead to heart disease and diabetes</li>
+        <li>Pain or physical illness</li>
+        <li>Alcohol or drug misuse</li>
+        <li>Anxiety, panic disorder or social phobia</li>
+        <li>Family conflicts, relationship difficulties, and work or school problems</li>
+        <li>Social isolation</li>
+        <li>Suicidal feelings, suicide attempts or suicide</li>
+        <li>Self-mutilation, such as cutting</li>
+        <li>Premature death from medical conditions</li>
+      </ul>
+  </div>
+
+  <div>
+    <a id = "Prevention"></a><h2>Prevention</h2>
+    <p>There's no sure way to prevent depression. However, these strategies may help.</p>
+      <ul>
+        <li><strong>Take steps to control stress,</strong>&nbsp;to increase your resilience and boost your self-esteem.</li>
+        <li><strong>Reach out to family and friends,</strong>&nbsp;especially in times of crisis, to help you weather rough spells.</li>
+        <li><strong>Get treatment at the earliest sign of a problem</strong>&nbsp;to help prevent depression from worsening.</li>
+        <li><strong>Consider getting long-term maintenance treatment</strong>&nbsp;to help prevent a relapse of symptoms.</li>
+      </ul>
+  </div>
+</body>
+
+<footer class="site-footer">
+    <div></div>
+      <div>
+            <div>
+            <h6>About</h6>
+            <p>
+                <ul class="footer-links">
+                    <li><a href="about.html">General Info</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                </ul>
+            </p>
+            </div>
+
+            <div>
+            <h6>Information</h6>
+            <ul class="footer-links">
+                <li><a href="anxiety.html">Anxiety</a></li>
+                <li><a href="depression.html">Depression</a></li>
+                <li><a href="ocd.html">OCD</a></li>
+                <li><a href="suicidalthoughts.html">Suicidal Thoughts</a></li>
+            </ul>
+            </div>
+
+            <div>
+            <h6>Support</h6>
+            <ul class="footer-links">
+                <li><a href="form.html">Contact Us</a></li>
+                <li><a href="https://www.befrienders.org.my/">Befrienders KL </a></li>
+            </ul>
+            </div>
+      </div>
+      <hr>
+    </div>
+
+
+    <div>
+      <div>
+        <div>
+          <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+          <br>Keith, Zheng Yang, Wen Hao and Ahsan
+          <br>Created: 19 June 2019, Last Modified: 28 June 2019 </p>
+      </div>
+
+        <!-- Sharingbutton Facebook -->
+            <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on Facebook">
+                <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                </div>Share on Facebook</div>
+            </a>
+            
+            <!-- Sharingbutton Twitter -->
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on Twitter">
+                <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+                </div>Share on Twitter</div>
+            </a>
+            
+            <!-- Sharingbutton E-Mail -->
+            <a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="Share by E-Mail">
+                <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg></div>Share by E-Mail</div>
+            </a>
+            
+            <!-- Sharingbutton LinkedIn -->
+            <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+                <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+                </div>Share on LinkedIn</div>
+            </a>
+      </div>
+    </div>
+</footer>
+</html>

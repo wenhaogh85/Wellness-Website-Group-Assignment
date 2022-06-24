@@ -1,0 +1,94 @@
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  margin: 0px 0px 5px 0px;
+  padding-left:50px;
+  background-color: #b191ee;
+  color:black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+  color:#a7a1a1;
+  font-size:20px;
+  padding-left:50px;
+}
+
+p,li{
+    margin-left:50px;
+    margin-right:50px;
+    text-align:justify;
+}
+
+table{
+  background-color: lightpink;
+  margin: 5px 20px 20px 20px;
+  text-align: center;
+  border: solid black;
+}
+
+th{
+  background-color:#44146b;
+  color:white;
+  border: solid black;
+}
+
+td{
+  color:black;
+  border: solid black;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+.button{
+  float:none;
+  font-size: 16px;
+  text-align: center; 
+  text-decoration: none; 
+  background-color:#2d74b6;  
+  color: black;    
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width:400px;
+  padding: 14px 16px;
+  border-radius:8px;
+  border:none;
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+.button:hover {
+  background-color: skyblue;
+  color: black;
+  transition:0.5s;
+}
+
+#button_A, #button_B, #button_C, #button_D, #button_E, #button_F{
+  display:none;
+}
+
+.anxiety_pic{
+  display: block;
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.psychotherapy_pic, .medication_pic{
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navigation a{
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.navigation a:hover{
+  color:#d6415a;
+  transition:0.5s;
+}

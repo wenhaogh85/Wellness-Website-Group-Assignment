@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>OCD | Wellness.com</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/ocd.css">
+    <link rel="shortcut icon" href="../images/wellness-tab.ico" type="image/ico">
+    </head>
+
+    <style>
+        @import url("../css/dropdown.css");
+        @import url("../css/footer.css");
+        body{
+            background-image:url("../images/background-moonlit.jpg");
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin:0px;
+            background-size:145%;
+            background-position-y: 30%;
+            background-attachment:fixed;
+        }
+    </style>
+
+    <body>
+        <script type="text/javascript" src="../javascript/buttonfunction.js"></script>
+        <script type="text/javascript" src="../javascript/dropdownFunc.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow54.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+
+        <div class="logo"><a href="home.html"><img src="../images/wellness.png" width=50px;></a></div>
+        <nav class="navbar">
+            <ul class="navlist">            
+                <a href="home.html">Home</a>
+                <a href="support.html">Support</a>
+                <a href="about.html">About</a>
+                <a href="FAQs.html">FAQs</a>
+                <div class="dropdownPos">
+                    <button onclick="dropdownFunc()" class="dropbtn">Information
+                        <i class="fa fa-caret-down"></i>
+                    </button>        
+                    <div id="infoDrop" class="dropdownList"> 
+                        <a href="anxiety.html">Anxiety</a>
+                        <a href="depression.html">Depression</a>
+                        <a href="ocd.html">OCD</a>
+                        <a href="suicidalthoughts.html">Suicidal Thoughts</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <div>
+        <a id="what_is_ocd"><h1>What is OCD?</h1></a>
+            <p>Obsessive-compulsive disorder is a type of mental illness. People with OCD can have either obsessive thoughts and urges or compulsive, repetitive behaviours. Some have both obsessions and compulsions.</p>
+            <p>OCD isn’t about habits like biting your nails or always thinking negative thoughts. The disorder can affect your job, school, and relationships and keep you from living a normal life. Your thoughts and actions are beyond your control.</p>
+            <p>An obsessive thought, for example, is to think that your family members might get hurt if they don’t put their clothing on in the exact same order every morning. A compulsive habit, on the other hand, might be to wash your hands 7 times after touching something that might be dirty. Although you may not want to think or do these things, you feel powerless to stop.</p>
+        </div>
+
+        <div>
+            <h1>Navigation</h1>
+                <ol>
+                    <div class="qhop">
+                        <li><a href="#types_of_ocd">Types of OCD</a></li>
+                        <li><a href="#causes_of_ocd">Causes of OCD</a></li>
+                        <li><a href="#overcoming_ocd">Overcoming OCD</a></li>
+                    </div>
+                </ol>
+        </div>
+
+        <div> 
+            <a id="types_of_ocd"><h1>Types of OCD</h1></a>
+            <div class="ocd">
+                <button onclick="buttonC('CButton')" class="button"> Checking</button>
+
+                <div id="CButton">
+                    <p>The need to check is the compulsion, but the obsessive fear might be to prevent damage, fire, leaks or harm. Common checking obsessive worries and compulsions include:</p>                     <ol>
+                        <li>Reassurance</li>
+                        <li>Past Memories</li>
+                        <li>Door Locks/Windows</li>
+                        <li>House/Office Alarm</li>
+                        <li>Gas or electric stove knobs</li>
+                        <li>Water taps</li>
+                        <li>Car</li>
+                        <li>Emails or letters</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="ocd">
+            <button onclick="buttonC('MCButton')" class="button">Mental Contamination</button>
+                <ol id="MCButton">
+                    <li>In addition to the more familiar type of contamination OCD involving someone that washes their hands repeatedly after coming into contact with potentially dirty objects or environments, there is also a less obvious form called ‘mental contamination’.</li>
+                    <br>
+                    <li>Mental contamination is a more recent area that researchers have only just started to get an understanding of.</li>
+                    <br>
+                    <li>The feelings of mental contamination share some qualities with contact contamination but have some distinctive features. Feelings of mental contamination can be evoked by times when a person perhaps felt badly treated, physically or mentally, through critical or verbally abusive remarks. It is almost as if they are made to feel like dirt, which creates a feeling of internal uncleanliness — even in the absence of any physical contact with a dangerous/dirty object. A distinctive feature of mental contamination is that the source is almost always human, unlike the contact contamination that is caused by physical contact with inanimate objects.</li>
+                </ol>
+        </div>
+
+        <div class="ocd">
+            <button onclick="buttonC('SButton')" class="button">Symmetry and ordering</button>
+
+            <div id="SButton">
+                    <div class="order"><img src="../images/order.jpg" title="Order and Symmetry" width=500px;></div>
+                <p>The need to have everything lined up symmetrically just ‘right’ is the compulsion, the obsessive fear might be to ensure everything feels ‘just right’ to prevent discomfort or sometimes to prevent harm occurring (see Magical Thinking). Examples include:</p>
+                <ol>
+                    <li>Having everything neat and in its place at all times.</li>
+                    <li>Having pictures hanging aligned and straight.</li>
+                    <li>Having canned food items all facing the same way, usually forward.</li>
+                </ol>
+            </div>
+        </div>
+            
+                
+
+        <div class="ocd">
+            <button onclick="buttonC('ITButton')" class="button">Ruminations/Intrustive Thoughts</button>
+
+        <table id="ITButton" border="1">
+            <th>Ruminations/Intrusive Thoughts</th>
+            <th>Description</th>                         
+
+            <tr>
+                <td>Relationship Intrusive Thoughts</td>
+                <td>
+                    <p>Relationship Intrusive Thoughts – Obsessive doubts over the suitability of a relationship, one’s partner or one’s own sexuality are the main focus for the obsessional thoughts. Obsessional thoughts include:</p>
+                    <ul>
+                        <li>Constantly analysing the depth of feelings for one’s partner, placing the partner and the relationship under a microscope and finding fault.</li>
+                        <li>Constantly needing to seek reassurance and approval from one’s partner.</li>
+                        <li>Doubts that one’s partner is being faithful.</li>
+                    </ul>
+                </td>
+
+            </tr>
+                <td>Sexual Intrusive Thoughts</td>
+                    <td>
+                    <p>Sexual Intrusive Thoughts – Obsessive thoughts of unintentionally causing inappropriate sexual harm (i.e. to children) unintentionally, or the constant questioning of one’s own sexuality are the main focuses for these obsessional doubts. Obsessional thoughts can include:</p>
+                    <ul>
+                        <li>Fearing being a paedophile and being sexually attracted to children.</li>
+                        <li>Fearing being sexually attracted to members of one’s own family.</li>
+                        <li>Fearing being attracted to members of the same sex (homosexual OCD) or for those who are gay fear of being attracted to members of the opposite sex.</li>
+                            <li>Thoughts about touching a child inappropriately.</li>
+                            <li> Intrusive sexual thoughts about God, saints or, religious figures.</li>
+                    </ul> 
+                </td>
+            </tr> 
+
+            <tr> 
+                <td>Magical Thinking Intrusive Thoughts</td>
+                <td>
+                    <p>Magical Thinking Intrusive Thoughts – is the fear is that even thinking about something bad will make it more likely to happen – sometimes also called ‘thought-action fusion’.</p>
+                    <p>Sufferers are beset by intrusive bad thoughts. They try to dispel them by performing rituals – magic rituals, in effect – that are often bizarre and time-consuming and involve linking actions or events that could not possibly be related to each other. For example having the thought ‘I may strangle someone’ is regarded as being as reprehensible as actually strangling a person.</p>
+                    <p>Another example is believing that simply imagining a horrific car crash will increase the likelihood of such a crash taking place, or a person may feel that if they don’t count to ten ‘just right’ harm will come to a family member. Other examples of magical thinking, or thought-action fusion intrusive thoughts include:</p>     
+                    <ul>
+                        <li> A certain colour or number has good or bad luck associated with it.</li>                            
+                        <li>Certain days have good or bad luck associated with them.</li>
+                        <li>A loved one’s death can be predicted.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Religious Intrusive Thoughts</td>
+                <td>
+                    <p>Religious Intrusive Thoughts – OCD often fixates on areas of great importance and sensitivity and religion and matters of religious practice are prime candidates for OCD obsessions. Sometimes referred to as scrupulosity, religious intrusive thoughts include:</p>
+                    <ul>
+                        <li>Sins committed will never be forgiven by God and one will go to hell.</li>
+                        <li>One will have bad thoughts in a religious building</li>
+                        <li>One will scream blasphemous words loudly in a religious location.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Violent Intrusive Thoughts </td>
+                <td>
+                    <p> Violent Intrusive Thoughts – obsessive fears of carrying out violent acts against loved ones or other people. Intrusive thoughts include:</p>
+                        <ul>
+                        <li>Violently harming children or loved ones.</li>
+                        <li>Killing innocent people.</li>
+                        <li>Using kitchen knives and other sharp objects (compulsions will include locking away knives and sharp objects).</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Body focused obesessions (Sensorimotor OCD)</td>
+                <td>
+                    <p>The intrusive thoughts are repetitive and not voluntarily produced, they cause the sufferer extreme distress – the very idea that they are capable of having such thoughts in the first place can be horrifying. However, what we do know is that people with Obsessive-Compulsive Disorder are the least likely people to actually act on the thoughts, partly because they find them so repugnant and go to great lengths to avoid them and prevent them happening.</p>
+                    <p>To sufferers and non-sufferers alike, the thoughts and fears related to OCD can often seem profoundly shocking. It must be stressed, however, that they are just thoughts, and they are not voluntarily produced. Neither are they fantasies or impulses which will be acted upon.</p>
+                    <p> We have chosen not to list anything about Pure O on this page because it’s an unhelpful and not an officially recognised medical term.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+    <div>
+        <a id="causes_of_ocd"><h1>Causes of OCD</h1></a>
+        <ol>
+            <h3><li>Stress</li></h3>
+            <div class="stress"><img src="../images/stress.jpg" title="Stressed Out Man" width=500px; alt="Stressed Person"></div>            
+            <ul>
+                <li>Stress and parenting styles are environmental factors that have been blamed for causing OCD, but no evidence is yet to show that. Stress does not actually cause OCD, but major stresses or traumatic life events may precipitate the onset of OCD. However, these are not thought to cause OCD, but rather trigger it in someone already predisposed to the disorder.</li>
+                <li> If left untreated, everyday anxiety and stress in a person’s life will worsen symptoms in OCD. Problems at school or work, university exam pressures and normal everyday problems that relationships can bring are all contributory factors to increasing the frequency and severity of a person’s OCD.</li>
+            </ul>
+            <br>
+
+
+            <h3><li>Chemical Imbalance</li></h3>
+            <nav class="brain"><img src="../images/brain.jpg" title="The Human Brain" width=500px;></nav>
+            <ul>
+                <li>It is common to see and hear mental health professionals describing the cause of OCD in terms of a ‘biochemical imbalance’. These approaches have focused on one particular neurotransmitter, serotonin.</li>
+                <li>Serotonin is the chemical in the brain that sends messages between brain cells and it is thought to be involved in regulating everything from anxiety, to memory, to sleep. </li>
+                <li>Through the accidental discovery in the late sixties of the effectiveness  of the serotonin active tricyclic antidepressant clomipramine, which did not substantially impact on serotonin, led to the serotonin hypothesis.</li>
+                <li>Initially, it was suggested that there was a gross deficit in serotonin; when this was not actually identified, increasingly subtle abnormalities were suggested, with the evidence overall remaining implausible at best.</li>
+                <li>In more recent years some researchers have argued that the most robust evidence for the serotonin hypothesis is the specificity of serotonin reuptake inhibitors (SRI) and selective serotonin reuptake inhibitor (SSRI) medication.</li>
+                <li>However, given that this effect was the observation that generated the hypothesis, it cannot reasonably be considered as evidence for it.</li>
+                <li>It’s worth noting that relapse is frequently associated with the withdrawal of SSRI medications in OCD, more so than in other conditions, especially where no behavioural therapy is in place, which is yet to be fully understood. This could mean that serotonin is an important neurotransmitter involved in the maintenance of OCD, if not a specific cause.</li>
+                <li>Overall, there is a place for SSRIs in the treatment of OCD, especially where co-morbidity is present, provided that medication remains part of informed patient choice, and combined with psychological therapy like CBT.</li>
+            </ul>
+            <br>  
+
+            <h3><li>Genetic Factors</li></h3>
+            <div class="genetic"><img src="../images/genetic.jpg" title="Lab testing for DNA" width=500px;></div>
+            <ul>
+                <li>Overall, genetic studies indicate some tendency towards anxiety that runs in families, although this is probably only slight.</li>
+                <li>Some research points to the likelihood that OCD sufferers will have a family member with OCD or with one of the other disorders in the OCD ‘spectrum’. In 2001, a meta-analytic review reported that a person with OCD is 4 times more likely to have another family member with OCD than a person who does not have the disorder.</li>
+                <li>This and other studies have raised the possibility of familial prevalence of OCD and led to a search to identify specific genetic factors that may be involved. S However, despite a proliferation of studies, and dozens of potential gene candidates suggested, researchers have so far failed to identify a consistent candidate gene responsible for OCD.</li>
+                <li>It also needs to be remembered that many sufferers do not identify OCD anywhere else in their family, or even other anxiety problems. This theory could be further questioned based on speaking to identical twins where one will have OCD and the other has no anxiety problem at all.</li>
+                <li>What this suggests is that genetics may not be the only cause of OCD (if at all), and  that family prevalence of OCD could be learned behaviours in some cases. So although we cannot rule genetics out,  it’s clear that it’s not the whole story and learned or environment factors may play a more significant part.</li>
+                <li>In summary, there is no obvious benefit to offering biological explanations for the cause of OCD, especially if such suggestions lead those who suffer to dismiss existing psychological treatment methods.</li>
+            </ul>
+            <br>
+        </ol>
+    </div>
+
+    <div>
+        <a id="overcoming_ocd"><h1>How to overcome OCD</h1></a>
+        <ol>
+            <h3><li>Learn How To Resist OCD Rituals </li></h3>
+                <p>
+                    <strong>Don’t avoid your fears.</strong> It might seem smart to avoid the situations that trigger your obsessive thoughts, but the more you avoid them, the scarier they feel. 
+                    Instead, expose yourself to your OCD triggers, then try to resist or delay the urge to complete your relief-seeking compulsive ritual. 
+                    If resistance gets to be too hard, try to reduce the amount of time you spend on your ritual. 
+                    Each time you expose yourself to your trigger, your anxiety should lessen and you’ll start to realize that you have more control (and less to fear) than you think.
+                </p>
+
+                <p>
+                    <strong>Anticipate OCD urges.</strong> By anticipating your compulsive urges before they arise, you can help to ease them. 
+                    For example, if your compulsive behavior involves checking that doors are locked, windows closed, 
+                    or appliances turned off, try to lock the door or turn off the appliance with extra attention the first time.
+
+                    <ul>
+                        <li>Create a solid mental picture and then make a mental note. Tell yourself, “The window is now closed,” or “I can see that the oven is turned off.”</li>
+                        <li>When the urge to check arises later, you will find it easier to re-label it as “just an obsessive thought.”</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>Refocus your attention.</strong> When you’re experiencing OCD thoughts and urges, try shifting your attention to something else. 
+                    You could exercise, jog, walk, listen to music, read, surf the web, play a video game, make a phone call, or knit. 
+                    The important thing is to do something you enjoy for at least 15 minutes, in order to delay your response to the 
+                    obsessive thought or compulsion. At the end of the delaying period, reassess the urge. In many cases, the urge will no longer be quite as intense. 
+                    Try delaying for a longer period. The longer you can delay the urge, the more it will likely change.
+                </p>
+
+            <h3><li>Challenge Obsessive Thoughts</li></h3>
+                <p>
+                    Everyone has troubling thoughts or worries from time to time. 
+                    But OCD causes the brain to get stuck on a particular anxiety-provoking thought, 
+                    causing it to play over and over in your head. 
+                    The following strategies can help you get unstuck.
+                </p>
+
+                <p>
+                    <div class="writing"><img src="../images/writing.jpg" title="Writing Notes of Obsessive Thoughts" width=500px;></div>
+                    <strong>Write down your obsessive thoughts or worries.</strong> Keep a pad and pencil on you, or type on a laptop, smartphone, or tablet. 
+                    When you begin to obsess, write down all your thoughts or compulsions.
+                    
+                    <ul>
+                        <li>Keep writing as the OCD urges continue, aiming to record exactly what you’re thinking, even if you’re repeating the same phrases or the same urges over and over.</li>
+                        <li>Writing it all down will help you see just how repetitive your obsessions are.</li>
+                        <li>Writing down the same phrase or urge hundreds of times will help it lose its power.</li>
+                        <li>Writing thoughts down is much harder work than simply thinking them, so your obsessive thoughts are likely to disappear sooner.</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>Create an OCD worry period.</strong> Rather than trying to suppress obsessions or compulsions, develop the habit of rescheduling them.
+                    <ul>
+                        <li>Choose one or two 10-minute “worry periods” each day, time you can devote to obsessing. 
+                            Choose a set time and place (e.g. in the living room from 8:00 to 8:10 a.m. and 5:00 to 5:10 p.m.) that’s early enough it won’t make you anxious before bedtime.
+                        </li>
+                        <li>During your worry period, focus only on negative thoughts or urges. 
+                            Don’t try to correct them. At the end of the worry period, take a few calming breaths, let the obsessive thoughts or urges go, and return to your normal activities. 
+                            The rest of the day, however, is to be designated free of obsessions and compulsions.
+                        </li>
+                        <li>When thoughts or urges come into your head during the day, write them down and “postpone” them to your worry period. 
+                            Save it for later and continue to go about your day.
+                        </li>
+                        <li>Go over your “worry list” during the worry period. Reflect on the thoughts or urges you wrote down during the day. 
+                            If the thoughts are still bothering you, allow yourself to obsess about them, but only for the amount of time you’ve allotted for your worry period.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>Create a tape of your OCD obsessions.</strong> Focus on one specific worry or obsession and record it to a tape recorder, laptop, or smartphone.
+                    <ul>
+                        <li>Recount the obsessive phrase, sentence, or story exactly as it comes into your mind.</li>
+                        <li>Play the tape back to yourself, over and over for a 45-minute period each day, until listening to the obsession no longer causes you to feel highly distressed.</li>
+                        <li>By continuously confronting your worry or obsession you will gradually become less anxious. You can then repeat the exercise for a different obsession.</li>   
+                    </ul>
+                </p>
+
+            <h3><li>Make Lifestyle Changes to ease OCD</li></h3>
+
+                <div class="container">
+                    <img src="../images/running.jpg" width=100% class="image";>
+                        <div class="middle">
+                            <div class="text">Running</div>
+                        </div>
+                </div>
+                
+                <div class="container">
+                        <img src="../images/sleep.jpg" width=100% class="image";>
+                            <div class="middle">
+                                <div class="text">Have Sufficient Sleep</div>
+                            </div>
+                </div>
+                
+                <div class="container">
+                        <img src="../images/relax.jpg" width=100% class="image";>
+                            <div class="middle">
+                                <div class="text">Relaxation Techniques</div>
+                            </div>
+                </div>
+                
+                <div class="container">
+                        <img src="../images/smoking.jpg" width=100% class="image";>
+                        <div class="middle">
+                            <div class="text">Avoid Nicotine and Alcohol</div>
+                        </div>
+                </div>
+            <div></div>
+            <div> 
+                <p>
+                    <strong>Exercise regularly.</strong> Exercise is a natural and effective anti-anxiety treatment that helps to control OCD symptoms by refocusing your mind when obsessive thoughts and compulsions arise. 
+                    For maximum benefit, try to get 30 minutes or more of aerobic activity on most days. Ten minutes several times a day can be as effective as one longer period especially if you pay mindful
+                    attention to the movement process.
+                </p>
+
+                <p>
+                    <strong>Get enough sleep.</strong> Not only can anxiety and worry cause insomnia, but a lack of sleep can also exacerbate anxious thoughts and feelings. 
+                    When you’re well rested, it’s much easier to keep your emotional balance,
+                    a key factor in coping with anxiety disorders such as OCD.
+                </p>
+
+                <p>
+                    <strong>Avoid alcohol and nicotine.</strong> Alcohol temporarily reduces anxiety and worry, but it actually causes anxiety symptoms as it wears off. 
+                    Similarly, while it may seem that cigarettes are calming, nicotine is actually a powerful stimulant. 
+                    Smoking leads to higher, not lower, levels of anxiety and OCD symptoms.
+                </p>
+
+                <p>
+                    <strong>Practice relaxation techniques.</strong> While stress doesn’t cause OCD, it can trigger symptoms or make them worse. Mindful meditation, yoga, deep breathing,
+                    and other relaxation techniques can help lower your overall stress and tension levels and help you manage your urges.
+                    For best results, practice a relaxation technique regularly. 
+                </p>
+            </div>
+            <h3><li>Reach out for support</li></h3>
+                <p>
+                    OCD can get worse when you feel powerless and alone, so it’s important to build a strong support system. 
+                    The more connected you are to other people, the less vulnerable you’ll feel. 
+                    Just talking about your worries and urges can make them seem less threatening.
+                </p>
+
+                <p>
+                    <strong>Stay connected to family and friends.</strong> Obsessions and compulsions can consume your life to the point of social isolation. 
+                    In turn, social isolation will aggravate your OCD symptoms. It’s important to invest in relating to family and friends. 
+                    Talking face-to-face about your worries and urges can make them feel less real and less threatening.
+                </p>
+                        
+                <p>
+                    <strong>Join an OCD support group.</strong> You’re not alone in your struggle with OCD, and participating in a support group can be an effective reminder of that. 
+                    OCD support groups enable you to both share your own experiences and learn from others who are facing the same problems.
+                </p>
+
+            <h3><li>Treatment</li></h3>
+                <p>
+                    <strong>Exposure and response prevention (ERP)</strong> requires repeated exposure to the source of your obsession. 
+                    You are asked to refrain from the compulsive behavior you’d usually perform to reduce your anxiety.
+                </p>
+
+                <ul>
+                    <li>For example, if you are a compulsive hand washer, you might be asked to touch the door handle in a public restroom and then be prevented from washing up. 
+                        As you sit with the anxiety, the urge to wash your hands will gradually begin to go away on its own. In this way, you learn that you don’t need the ritual
+                        to get rid of your anxiety—that you have some control over your obsessive thoughts and compulsive behaviors.
+                    </li>
+
+                    <li>
+                        Studies show that exposure and response prevention can actually “retrain” the brain, permanently reducing the occurrence of OCD symptoms.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Cognitive Behavioural Therapy (CBT)</strong> focuses on the catastrophic thoughts and exaggerated sense of responsibility you feel. 
+                    A big part of cognitive therapy for OCD is teaching you healthy and effective ways of responding to obsessive thoughts, 
+                    without resorting to compulsive behavior.
+                </p>
+            </ol>
+        </div>
+    </body>
+
+    <footer class="site-footer">
+            <div>
+              <div>
+                    <div>
+                    <h6>About</h6>
+                    <p>
+                        <ul class="footer-links">
+                            <li><a href="about.html">General Info</a></li>
+                            <li><a href="FAQs.html">FAQs</a></li>
+                        </ul>
+                    </p>
+                    </div>
+      
+                    <div>
+                    <h6>Information</h6>
+                    <ul class="footer-links">
+                        <li><a href="anxiety.html">Anxiety</a></li>
+                        <li><a href="depression.html">Depression</a></li>
+                        <li><a href="ocd.html">OCD</a></li>
+                        <li><a href="suicidalthoughts.html">Suicidal Thoughts</a></li>
+                    </ul>
+                    </div>
+      
+                    <div>
+                    <h6>Support</h6>
+                    <ul class="footer-links">
+                        <li><a href="form.html">Contact Us</a></li>
+                        <li><a href="https://www.befrienders.org.my/">Befrienders KL </a></li>
+                    </ul>
+                    </div>
+              </div>
+              <hr>
+            </div>
+
+
+            <div>
+              <div>
+                <div>
+                    <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+                    <br>Keith, Zheng Yang, Wen Hao and Ahsan
+                    <br>Created: 19 June 2019, Last Modified: 28 June 2019 </p>
+                </div>
+      
+                <!-- Sharingbutton Facebook -->
+                    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on Facebook">
+                        <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                        </div>Share on Facebook</div>
+                    </a>
+                    
+                    <!-- Sharingbutton Twitter -->
+                    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on Twitter">
+                        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+                        </div>Share on Twitter</div>
+                    </a>
+                    
+                    <!-- Sharingbutton E-Mail -->
+                    <a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="Share by E-Mail">
+                        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg></div>Share by E-Mail</div>
+                    </a>
+                    
+                    <!-- Sharingbutton LinkedIn -->
+                    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+                        <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+                        </div>Share on LinkedIn</div>
+                    </a>
+              </div>
+            </div>
+      </footer>
+</html>

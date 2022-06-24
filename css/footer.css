@@ -1,0 +1,249 @@
+.site-footer
+{
+  background-color:#1e1f24;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom:5px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+
+.site-footer hr
+{
+  border-top-color:white;
+  opacity:0.5;
+}
+
+
+.site-footer h6
+{
+  color:white;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  margin-bottom:10px;
+  letter-spacing:2px
+}
+
+.site-footer a
+{
+    color:white;
+}
+
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links
+{
+  padding-left:0;
+}
+
+.footer-links li
+{
+    margin-left:10px, auto;
+    display:block;
+}
+
+.footer-links a
+{
+    margin-left:10px, auto;
+    color:white;
+    text-decoration:none;
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:underline;
+  transition:0.5s;
+}
+
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.copyright-text
+{
+  margin:0;
+  text-align:center;
+  font-size:16px;
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block;
+  margin:auto;
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em;
+  margin-left:120px;
+  padding-left:50px;
+  text-align:center;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: black;
+  color:black;
+  transition:0.5s;
+  
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373;
+  color:black;
+  transition:0.5s;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293;
+  color:black;
+  transition:0.5s;
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e;
+  color:black;
+  transition:0.5s;
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+  transition:0.5s;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+  transition:0.5s;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+  transition:0.5s;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+  transition:0.5s;
+}
+
